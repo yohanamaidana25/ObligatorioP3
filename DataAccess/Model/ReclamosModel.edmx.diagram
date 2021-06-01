@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="57f1a961f29b4fbf81610143b92e802b" Name="Diagram1">
+        <EntityTypeShape EntityType="CentroReclamosModel.cuadrilla" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CentroReclamosModel.historialCambios" Width="1.5" PointX="7.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CentroReclamosModel.punto" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CentroReclamosModel.reclamo" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CentroReclamosModel.tipoReclamo" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CentroReclamosModel.usuario" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CentroReclamosModel.zona" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="CentroReclamosModel.FK__reclamo__numeroC__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="CentroReclamosModel.FK__historial__numer__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="CentroReclamosModel.FK__punto__numeroZon__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="CentroReclamosModel.FK__reclamo__emailUs__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="CentroReclamosModel.FK__reclamo__numeroZ__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="CentroReclamosModel.FK__reclamo__numTipo__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="CentroReclamosModel.asignar" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
